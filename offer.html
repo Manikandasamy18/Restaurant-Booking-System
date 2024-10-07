@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant - Special Offers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the offers section */
+        .offers-section {
+            padding: 40px 0;
+        }
+        .offers-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .offer-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+        .offer-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Restaurant</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="location.html">Location</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="offer.html">Special Offers</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Offers Section -->
+<section class="offers-section text-center">
+    <h2 class="offers-title">Special Offers</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="offer-card">
+                    <h5>10% Off on First Visit</h5>
+                    <p>Experience our delightful menu for the first time and enjoy a 10% discount on your total bill. Present this offer when you order.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="offer-card">
+                    <h5>Family Feast</h5>
+                    <p>Bring your family and enjoy a special family meal combo with 20% off. A perfect way to share delightful moments over delicious food.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="offer-card">
+                    <h5>Happy Hour: 4 PM - 6 PM</h5>
+                    <p>Join us for happy hour and enjoy buy-one-get-one-free on selected beverages. Unwind after a long day with us!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-light text-center py-4">
+    <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
